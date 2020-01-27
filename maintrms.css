@@ -1,0 +1,10 @@
+html {
+    background: rgb(36, 36, 36);
+    /* background: radial-gradient(circle, rgba(0,96,13,1) 50%, rgba(31,148,9,1) 88%, rgba(12,198,0,1) 100%); */
+    font-family: 'Arial';
+
+  }
+
+body {
+    color: whitesmoke;
+  }
