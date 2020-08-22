@@ -27,8 +27,6 @@ Sistema de gestión de la capacitación y entrenamiento para organizaciones
 
 # Casos de uso
 
----
-
 ## Admin
 
 CUad01 gestionar usuarios
