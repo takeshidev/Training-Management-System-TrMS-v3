@@ -2,6 +2,10 @@
 
 Training Management System
 
+Sistema de gestión del entrenamiento y capacitación para Recursos Humanos
+
+Autor : Takeshi Kita - www.takeshi.cl
+
 ## Tecnologías
 
 ---
@@ -29,7 +33,18 @@ Training Management System
 - Endpoint API
 - Registro de historial personal (cursos, certificaciones, mentoring)
 - Control de presupuesto
+- permita el tracking de proyectos. ej: cumplimiento de inducciones, certificaciones con vencimiento,
+
+# Casos de uso
 
 ---
 
-[Diseño](TRM%20ce60aa9b547947a796f8ff9c0eabc2d2/Disen%CC%83o%20566fd985f8df425cbe644cf82706cd00.md)
+[CU Administrador](https://www.notion.so/84c624ccddb340a8abb40766bc84b6da)
+
+[CU Alumno/Colaborador](https://www.notion.so/f2756f1516094c7790173acf4c486629)
+
+[CU Supervisor/Teamleader](https://www.notion.so/98b85650fb00433197d407b1885fdb93)
+
+# Diseño DB
+
+---
