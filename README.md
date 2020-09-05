@@ -44,3 +44,7 @@ CUal03 responde encuestas
 CUsp01 ver historial de personal a cargo
 
 CUsp02 responde encuestas y evaluaciones
+
+
+# Modelo de datos
+![alt text](https://github.com/takeshidev/Training-Management-System-TrMS-v3/blob/master/DOCUMENTACION/BaseDatos/modelo.png?raw=true)
