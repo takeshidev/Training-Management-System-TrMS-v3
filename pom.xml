@@ -16,6 +16,20 @@
 
 	<properties>
 		<java.version>11</java.version>
+		<!-- Spring Data JPA -->
+        <org.springframework.data-version>2.3.2.RELEASE</org.springframework.data-version>
+
+        <!-- Hibernate -->
+        <org.hibernate-version>5.4.19.Final</org.hibernate-version>
+
+        <!-- Hibernate Validator Engine -->
+        <org.hibernate.validator-version>6.1.5.Final</org.hibernate.validator-version>
+
+        <!-- Bean Validation API -->
+        <javax.validation-version>2.0.1.Final</javax.validation-version>
+
+        <!-- Jackson -->
+        <com.fasterxml.jackson.core-version>2.11.2</com.fasterxml.jackson.core-version>
 	</properties>
 
 	<dependencies>
@@ -51,6 +65,50 @@
 		<groupId>javax.servlet</groupId>
 		<artifactId>jstl</artifactId>
 	</dependency>
+	
+	<!-- Spring Data JPA > https://mvnrepository.com/artifact/org.springframework.data/spring-data-jpa -->
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-jpa</artifactId>
+            <version>${org.springframework.data-version}</version>
+        </dependency>
+
+        <!-- Hibernate Core > https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>${org.hibernate-version}</version>
+        </dependency>
+
+        <!-- Hibernate Validator Engine > https://mvnrepository.com/artifact/org.hibernate.validator/hibernate-validator -->
+        <dependency>
+            <groupId>org.hibernate.validator</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>${org.hibernate.validator-version}</version>
+        </dependency>
+
+        <!-- Bean Validation API > https://mvnrepository.com/artifact/javax.validation/validation-api -->
+        <dependency>
+            <groupId>javax.validation</groupId>
+            <artifactId>validation-api</artifactId>
+            <version>${javax.validation-version}</version>
+        </dependency>
+
+        <!-- Oracle JDBC -->
+        <dependency>
+            <groupId>com.oracle.database.jdbc</groupId>
+            <artifactId>ojdbc6</artifactId>
+            <version>11.2.0.4</version>
+        </dependency>
+
+        <!-- Jackson Databind > https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${com.fasterxml.jackson.core-version}</version>
+        </dependency>
+	
+	
 </dependencies>
 
 	<build>

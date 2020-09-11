@@ -15,7 +15,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class MainController {
 
 	private static final Logger logger = LoggerFactory.getLogger(MainController.class);
-		
+	
+	
 	/**
 	 * Simply selects the home view to render by returning its name.
 	 */
@@ -23,7 +24,6 @@ public class MainController {
 	public String home(Model model) {
 		
 	    logger.info("Usuario en /.");
-	   
 			return "index";
 		}
 	
